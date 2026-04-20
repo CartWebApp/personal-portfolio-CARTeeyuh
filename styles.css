@@ -1,0 +1,9 @@
+.arrowdown {
+    background-image: url('images/arrow_forward.png');
+    height: 50px;
+    width: 50px;
+}
+
+h2 {
+    position: absolute;
+}
