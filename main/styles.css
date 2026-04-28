@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-self: center;
+    width: 80%
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -33,6 +41,27 @@ nav {
     width: 50px;
 }
 
-h2 {
+.bgtext {
     position: absolute;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    & .calctitle {
+        height: 50px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    & .gambletitle {
+        height: 50px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    & .fcztitle {
+        height: 50px;
+        background-color: blue;
+        border-radius: 20px;
+    }
 }
