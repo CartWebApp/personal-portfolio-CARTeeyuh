@@ -9,7 +9,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
     gap: 200px;
 }
 
@@ -23,7 +23,8 @@ nav {
     background-color: black;
     text-decoration: none;
     color: white;
-    width: 100px;
+    margin-top: 50px;
+    width: 15%;
     height: 50px;
 }
 
@@ -32,7 +33,9 @@ nav {
 }
 
 .designtitle {
-    margin-left: 350px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .arrowdown {
@@ -64,4 +67,47 @@ a {
         background-color: blue;
         border-radius: 20px;
     }
+}
+
+#part1 {
+    padding-top: -50px;
+    padding: 50px;
+}
+
+.man {
+    background-image: url('../images/Component 1.png');
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+}
+
+#section1 {
+    background-color: #414AFF;
+    height: 1000px;
+    width: 100%;
+}
+
+#powers {
+    margin-top: 100px;
+}
+
+#wield {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #0D0082;
+    padding: 20px;
+    height: 430px;
+    max-width: 100%;
+}
+
+
+
+.projectstitle, .EECU p, .Gamble p, .FCZ p {
+    color: white;
 }
