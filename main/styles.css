@@ -1,3 +1,8 @@
+html {
+    background-image: url('../images/background-image-1.gif');
+    background-attachment: fixed;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -76,7 +81,7 @@ a {
 }
 
 .man {
-    margin-left: 50%;
+    margin-left: 25%;
     background-image: url('../images/Component 1.png');
     background-size: cover;
     height: 700px;
@@ -87,7 +92,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #414AFF;
     height: 1000px;
     width: 100%;
