@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     padding: 20px;
     justify-self: center;
+    align-content: center;
     width: 80%
 }
 
@@ -75,6 +76,7 @@ a {
 }
 
 .man {
+    margin-left: 50%;
     background-image: url('../images/Component 1.png');
     background-size: cover;
     height: 700px;
@@ -82,6 +84,10 @@ a {
 }
 
 #section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #414AFF;
     height: 1000px;
     width: 100%;
