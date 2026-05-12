@@ -23,16 +23,6 @@ body {
     background-color: #414AFF;
 }
 
-.title {
-    display: flex;
-    background-color: #0D0082;
-    height: 100%;
-    width: 40%;
-    margin-bottom: 20px;
-    justify-content: center;
-    border-radius: 20px;
-}
-
 h1, h2 {
     font-family: 'Notable', sans-serif;
     color: white;
@@ -40,50 +30,56 @@ h1, h2 {
 
 p {
     font-family: 'Merge One', sans-serif;
-    font-size: 20px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #0D0082;
+    height: 100%;
+    width: 40%;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 .pictures {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 20px;
+    gap: 10px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.gamblepic1 {
-    background-image: url('../images/gamble-pics/gamblepic1.png');
-    background-size: cover;
-    width: 600px;
-    height: 300px;
-    border-radius: 20px;
-}
-
-.gamblepic2 {
-    background-image: url('../images/gamble-pics/gamblepic2.png');
+.essaypic1 {
+    background-image: url('../images/essay-pics/essaypic2.png');
     background-size: cover;
     width: 750px;
-    height: 500px;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-
-.description {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    border: 1px black solid;
+    height: 910px;
     border-radius: 10px;
-    background-color: #0D0082;
-    text-decoration: none;
-    color: white;
-    margin-top: 20px;
-    width: 100%;
-    height: 200px;
+    margin-bottom: 20px;
 }
 
-.techstack {
+.essaypic2 {
+    background-image: url('../images/essay-pics/essaypic3.png');
+    background-size: cover;
+    width: 750px;
+    height: 910px;
+    border-radius: 10px;
+}
+
+.essaypic3 {
+    background-image: url('../images/essay-pics/essaypic4.png');
+    background-size: cover;
+    width: 750px;
+    height: 910px;
+    border-radius: 10px;
+}
+
+.concepts {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -112,7 +108,7 @@ p {
     color: white;
     margin-top: 20px;
     width: 100%;
-    height: 750px;
+    height: 800px;
 }
 
 .habits {
@@ -129,16 +125,6 @@ p {
     margin-top: 20px;
     width: 100%;
     height: 300px;
-}
-
-.diy {
-    background-color: #0D0082;
-    height: 100px;
-    width: 20%;
-    margin-top: 20px;
-    place-content: center;
-    text-align: center;
-    border-radius: 20px;
 }
 
 .backbtn {

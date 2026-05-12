@@ -40,6 +40,7 @@ h1, h2 {
 
 p {
     font-family: 'Merge One', sans-serif;
+    font-size: 20px;
 }
 
 .eecupic1 {
@@ -149,7 +150,7 @@ p {
     color: white;
     margin-top: 20px;
     width: 100%;
-    height: 850px;
+    height: 950px;
 }
 
 .habits {

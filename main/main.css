@@ -6,6 +6,7 @@
 
 p {
     font-family: 'Merge One', sans-serif;
+    font-size: 20px;
                                                 
 }
 
@@ -18,8 +19,6 @@ html {
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
-
-
 
 body {
     display: flex;
