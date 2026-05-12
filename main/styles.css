@@ -1,15 +1,35 @@
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family: 'Merge One', sans-serif;
+                                                
+}
+
+h1, h2 {
+    font-family: 'Notable', sans-serif;
+}
+
 html {
     background-image: url('../images/background-image-1.gif');
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
+
+
 
 body {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin: 0 auto;
+    align-items: center;;
     justify-self: center;
-    align-content: center;
-    width: 80%
+    width: 80%;
+    min-height: 100vh;
 }
 
 nav {
@@ -23,6 +43,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Notable', sans-serif;
     place-content: center;
     border: 1px black solid;
     border-radius: 10px;
@@ -39,6 +60,7 @@ nav {
 }
 
 .designtitle {
+    font-size: 43px;
     margin-top: 50px;
     margin-right: 150px;
     margin-left: 150px;
@@ -58,34 +80,123 @@ a {
     background-color: blue;
     color: white;
     text-decoration: none;
-    & .calctitle {
+    & .calctitle, .gambletitle, .fcztitle {
+        width: 90%;
         height: 50px;
-        background-color: blue;
-        border-radius: 20px;
-    }
-    & .gambletitle {
-        height: 50px;
-        background-color: blue;
-        border-radius: 20px;
-    }
-    & .fcztitle {
-        height: 50px;
+        margin-left: 5%;
         background-color: blue;
         border-radius: 20px;
     }
 }
 
 #part1 {
-    padding-top: -50px;
-    padding: 50px;
+    position: relative;
+    padding: -50px;
+    min-height: 900px;
+    overflow: hidden;
+}
+
+.bgtext {
+    position: absolute;
+    color: black;
+    font-family: 'Notable', sans-serif;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: 0.1em;
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
+    white-space: nowrap;
+}
+
+#powers {
+    top: 0%;
+    left: 4%;
+}
+
+#wield {
+    top: 7%;
+    right: 27%;
+}
+
+#runs {
+    top: 28%;
+    left: 4%;
+}
+
+#superpowers {
+    top: 8%;
+    right: 16%;
+}
+
+#composure {
+    top: 36%;
+    left: 8%;
+}
+
+#always {
+    top: 70%;
+    right: 8%;
+}
+
+#who {
+    top: 50%;
+    left: 20%;
+}
+
+#stop {
+    top: 50%;
+    right: 25%;
+}
+
+#pain {
+    top: 74%;
+    left: 4%;
+}
+
+#find {
+    top: 20%;
+    right: 20%;
+}
+
+#space {
+    top: 28%;
+    left: 58%;
+}
+
+#one {
+    top: 44%;
+    right: 60%;
+}
+
+#turn {
+    top: 44%;
+    left: 66%;
+}
+
+#breath {
+    top: 62%;
+    right: 64%;
+}
+
+#letme {
+    top: 62%;
+    left: 54%;
+}
+
+#neverenough {
+    top: 80%;
+    right: 23%;
+    font-size: 100px;
 }
 
 .man {
+    margin-top: 10%;
     margin-left: 25%;
     background-image: url('../images/Component 1.png');
     background-size: cover;
-    height: 700px;
-    width: 700px;
+    height: 800px;
+    width: 800px;
 }
 
 #section1 {
@@ -106,18 +217,99 @@ a {
     margin-left: 700px;
 }
 
+/* Projects section */
+
 #section2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #0D0082;
-    padding: 20px;
+    padding: 0px;
     height: 430px;
-    max-width: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 
 
 .projectstitle, .EECU p, .Gamble p, .FCZ p {
     color: white;
+}
+
+/* Written projects section */
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#part3 {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1A00FF;
+}
+
+a.essay1, a.essay2 {
+    background-color: #3647FF;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+a.essay2 {
+    margin-bottom: 20px;
+}
+
+/* Plans/About me section */
+
+#section4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #414AFF;
+}
+
+#part4 {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.fiveyearplan, .yearreview {
+    margin: 10px;
+    background-color: #0D0082;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#picsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picbefore {
+    background-image: url('../images/codebefore.png');
+    background-size: cover;
+    height: 200px;
+    width: 500px;
+}
+
+.picafter {
+    background-image: url('../images/codeafter.png');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
 }
